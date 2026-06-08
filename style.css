@@ -1,0 +1,94 @@
+
+    
+    
+    @font-face {
+      font-family: 'Anta';
+      src: url("/fonts/Anta.ttf");
+      font-size:18px;
+    }
+    
+     @font-face {
+      font-family: 'Terminus';
+      src: url("/fonts/TerminusTTF-4.49.3.ttf");
+      font-size:22px;
+    }
+    @font-face {
+      font-family: 'GE Inspira';
+      font-style: normal;
+      font-weight: normal;
+      src: local('GE Inspira Regular'), url('/fonts/GEInspira-Regular.woff') format('woff');
+    }
+
+    body{
+        
+        background-color: #1a1b1c;
+        font-family: 'GE Inspira';
+        font-size:18px;
+        text-align:center;
+    }
+
+    #header{
+      border: 1px solid blue;
+      background-image:url('/imgs/rebel-as-percieved-complex.png');
+      width: 320px;
+      height: 200px;
+      text-align:center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 5px;
+    
+      
+    }
+    #header-link{
+        border:1px solid blue;
+        background:white;
+        text-align:center;
+        padding:5px;
+        display: inline-block;
+        margin: 0 0 10px;
+    }
+    #container{ 
+        /* These 3 center the container, which therefore centers all of the content on the page. */
+        position:absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #content{
+        border:1px solid blue;
+        background:white;
+        padding:10px;
+        margin:0 0 10px;
+    }
+
+
+    #footer{
+        border:1px solid blue;
+        background:white;
+        text-align:center;
+        padding:5px;
+        display: inline-block;
+        /*position:relative;*/
+        /*margin: auto;*/
+        /*left:50%;*/
+    }
+    
+    #date{
+      font-size: 12px;
+      color: darkgrey;
+      
+    }
+    
+    #article{
+      text-align:center;
+      display:inline-block;
+      max-width:384px;
+    }
+    
+    #songlist{
+      text-align:left;
+      display:inline-block;
+      font-size:13px;
+    }
+    
+    {CustomCss}
