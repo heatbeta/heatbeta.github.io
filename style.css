@@ -53,9 +53,10 @@ body{
 }
 #article{
   text-align:center;
-  background:#f0e4cc;
+  background:#d6cbb4;
   display:inline-block;
   max-width:384px;
+  border:1px solid blue;
 }
 #songlist{
   text-align:left;
