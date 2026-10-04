@@ -5,7 +5,7 @@
   src: local('GE Inspira Regular'), url('/fonts/GEInspira-Regular.woff') format('woff');
 }
 body{        
-    background-color: #1a1b1c;
+    background-color: #d6cbb4;
     font-family: 'GE Inspira';
     font-size:18px;
     text-align:center;
@@ -35,7 +35,7 @@ body{
 }
 #content{
     border:1px solid blue;
-    background:#fff6e3;
+    background:#fef3da;
     padding:10px;
     margin:0 0 10px;
 }
@@ -53,7 +53,7 @@ body{
 }
 #article{
   text-align:center;
-  background:#f0e7d5;
+  background:#f0e4cc;
   display:inline-block;
   max-width:384px;
 }
